@@ -306,7 +306,7 @@ jobs:
     steps:
        - slack/notify:
            event: pass
-           channel: EgFwd-T3-June-22
+           channel: cicd-pipeline
            template: success_tagged_deployment_1              
 
 workflows:
